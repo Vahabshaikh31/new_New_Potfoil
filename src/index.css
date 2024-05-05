@@ -4,21 +4,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 :root {
-    --black: #121212;
-    --blue:  rgb(11, 138, 140);
-    --obsidian:#191919;
-
+  --black: #121212;
+  --darkblack: black;
+  --blue: rgb(11, 138, 140);
+  --obsidian: #191919;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
   font-weight: 100;
   font-style: normal;
 }
 
-body{
-  background-color: var(--black);
+
+html {
+  font-size: 10px;
+}
+
+
+@media (width <=1000px) {
+  html {
+    font-size: 8px;
+  }
+} 
+
+@media (width <=800px) {
+  html {
+    font-size: 7px;
+  }
+
+}
+
+@media (width <=450px) {
+  html {
+    font-size: 7px;
+  }
+}@media (width <=390px) {
+  html {
+    font-size: 6.5px;
+  }
+}@media (width <=360px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+body {
+  background: linear-gradient(to top,
+      #0b0d0f,
+      #121314);
+  color: #fff;
+  height: 100%;
+  width: 100%;
+
 }

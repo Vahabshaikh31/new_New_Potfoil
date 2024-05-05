@@ -1,0 +1,122 @@
+
+
+.section-project {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200vh;
+    background-image: url("./Back.svg");
+    background-position-x: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.section-span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: .7rem;
+    height: .4rem;
+    background: #fff;
+    border-radius: 50%;
+    animation: staranimate 3s linear infinite;
+}
+
+.section-span::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 300px;
+    height: 1px;
+    background: linear-gradient(90deg, #fff, transparent);
+}
+
+@keyframes staranimate {
+    0% {
+        transform: rotate(315deg) translateX(0);
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(315deg) translateX(-1000px);
+        opacity: 0;
+    }
+}
+
+
+.section-span:nth-child(1) {
+    top: 20px;
+    right: 200px;
+    left: initial;
+    animation-delay: 0.2s;
+    animation-duration: 3s;
+}
+
+.section-span:nth-child(2) {
+    top: 0;
+    right: 500px;
+    left: initial;
+    animation-delay: 0.2s;
+    animation-duration: 2s;
+}
+
+.section-span:nth-child(3) {
+    top: 230px;
+    right: 50px;
+    left: initial;
+    animation-delay: 0.2s;
+    animation-duration: 6s;
+}
+
+.section-span:nth-child(4) {
+    top: 300px;
+    right: 300px;
+    left: initial;
+    animation-delay: 0.2s;
+    animation-duration: 3s;
+}
+
+.section-span:nth-child(5) {
+    top: 100px;
+    right: 800px;
+    left: initial;
+    animation-delay: 0.2s;
+    animation-duration: 7s;
+}
+
+.section-span:nth-child(6) {
+    top: 10px;
+    right: 1000px;
+    left: initial;
+    animation-delay: 0.2s;
+    animation-duration: 3.8s;
+}
+
+.section-span:nth-child(7) {
+    top: 10px;
+    right: 1000px;
+    left: initial;
+    animation-delay: 0.2s;
+    animation-duration: 5.6s;
+}
+
+.section-span:nth-child(8) {
+    top: 100px;
+    right: 400px;
+    left: initial;
+    animation-delay: 0.2s;
+    animation-duration: 9s;
+}
+
+.cards {
+    display: flex;
+    height: 200vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}   

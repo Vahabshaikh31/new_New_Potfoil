@@ -1,0 +1,357 @@
+.Contact-section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.wrapper span {
+  position: fixed;
+  bottom: -10rem;
+  height: 5rem;
+  width: 5rem;
+  z-index: -1;
+  background-color: #f8e912;
+  box-shadow: 0 0 40px #ffee00;
+  animation: circleanimation 5s linear infinite;
+}
+
+.wrapper span:nth-child(1) {
+  left: 6rem;
+  animation-delay: .6s;
+}
+
+.wrapper span:nth-child(2) {
+  left: 200px;
+  animation-delay: 3s;
+  width: 6rem;
+  height: 6rem;
+}
+
+.wrapper span:nth-child(3) {
+  left: 205;
+  animation-delay: 2s;
+
+}
+
+.wrapper span:nth-child(4) {
+  left: 30%;
+  animation-delay: .5s;
+  width: 8rem;
+  height: 8rem;
+
+
+}
+
+
+.wrapper span:nth-child(5) {
+  left: 40%;
+  animation-delay: 1s;
+
+}
+
+.wrapper span:nth-child(6) {
+  left: 50%;
+  animation-delay: 7s;
+
+
+}
+
+.wrapper span:nth-child(7) {
+  left: 60%;
+  animation-delay: 6s;
+  height: 10rem;
+  width: 10rem;
+
+
+}
+
+.wrapper span:nth-child(8) {
+  left: 70%;
+  animation-delay: 6s;
+  width: 9rem;
+  height: 9rem;
+
+
+}
+
+.wrapper span:nth-child(9) {
+  left: 90%;
+  animation-delay: 4s;
+
+
+}
+
+.wrapper span:nth-child(10) {
+  left: 10%;
+  animation-delay: 4s;
+
+}
+
+.wrapper span:nth-child(11) {
+  left: 90%;
+  animation-delay: 4s;
+
+
+}
+
+.wrapper span:nth-child(12) {
+  left: 90%;
+  animation-delay: 6s;
+  top: 23rem;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+@keyframes circleanimation {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+
+
+  }
+
+  60% {
+    opacity: .7;
+  }
+
+  100% {
+    transform: translateY(-800px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+
+
+.form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-container {
+  height: 60rem;
+  width: 50rem;
+  background: var(--black);
+  box-shadow: 0px 0px 10px var(--blue);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.form-contact {
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  color: transparent;
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  text-align: center;
+  background-image: linear-gradient(to bottom, white, black);
+  background-clip: text;
+}
+
+.form-decription {
+  width: 37.5rem;
+  letter-spacing: 1px;
+  color: #737373;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+.textInputWrapper {
+  position: relative;
+  width: 30rem;
+  margin: 12px 5px;
+  --accent-color: #a3e583;
+}
+
+.textInputWrapper:before {
+  transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.textInputWrapper:before,
+.textInputWrapper:after {
+  content: "";
+  left: 0;
+  right: 0;
+  position: absolute;
+  pointer-events: none;
+  bottom: -1px;
+  z-index: 4;
+  width: 100%;
+}
+
+.textInputWrapper:focus-within:before {
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.textInputWrapper:before {
+  transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.textInputWrapper:focus-within:before {
+  border-bottom: 1px solid var(--accent-color);
+  transform: scaleX(1);
+}
+
+.textInputWrapper:focus-within:after {
+  border-bottom: 2px solid var(--accent-color);
+  transform: scaleX(1);
+}
+
+.textInputWrapper:after {
+  content: "";
+  transform: scaleX(0);
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  will-change: transform;
+  border-bottom: 2px solid var(--accent-color);
+  border-bottom-color: var(--accent-color);
+}
+
+.textInput::placeholder {
+  transition: opacity 250ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  opacity: 1;
+  user-select: none;
+  color: rgba(255, 255, 255, 0.582);
+}
+
+.textInputWrapper .textInput {
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 0px 2px 5px rgb(35 35 35 / 30%);
+  max-height: 36px;
+  background-color: #252525;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 200ms;
+  transition-property: background-color;
+  color: #e8e8e8;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 12px;
+  width: 100%;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+.textInputWrapper .textInput:focus,
+.textInputWrapper .textInput:active {
+  outline: none;
+}
+
+.textInputWrapper:focus-within .textInput,
+.textInputWrapper .textInput:focus,
+.textInputWrapper .textInput:active {
+  background-color: #353535;
+}
+
+.textInputWrapper:focus-within .textInput::placeholder {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+.form-send-btn {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  display: flex;
+  height: 3.5rem;
+  align-items: center;
+}
+
+
+
+.form-send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 5px;
+  color: white;
+  text-shadow: 2px 2px rgb(116, 116, 116);
+  text-transform: uppercase;
+  cursor: pointer;
+  border: solid 2px black;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 1.3rem;
+  background-color: hsl(49deg 98% 60%);
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  height: 3rem;
+}
+
+.form-send:active {
+  transform: scale(0.9);
+  transition: all 100ms ease;
+}
+
+.form-send svg {
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.play {
+  transition: all 0.5s ease;
+  transition-delay: 300ms;
+}
+
+.form-send:hover svg {
+  transform: scale(3) translate(50%);
+}
+
+.now {
+  position: absolute;
+  left: 0;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.form-send:hover .now {
+  transform: translateX(10px);
+  transition-delay: 300ms;
+}
+
+.form-send:hover .play {
+  transform: translateX(200%);
+  transition-delay: 300ms;
+}
+@media (width <=1000px) {
+
+  .form-send-btn {
+    height: 4rem;
+  }
+}
+@media (width <=500px) {
+
+  .form-send-btn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+  }
+
+  .form-send {
+    height: 4rem;
+  }
+}
+

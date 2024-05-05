@@ -1,0 +1,352 @@
+.skill-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1, .section-2 {
+    width: 50%;
+    height: 100vh;
+    margin: 15px;
+}
+
+.section-1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.section-2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main-circle {
+    transform: scale(1.5);
+    filter: drop-shadow(0 0 0.5rem var(--blue));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Soft {
+    background-clip: linear-gradient(to bottom,
+            rgb(0, 0, 0),
+            white);
+}
+
+.circle-container {
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+}
+
+
+
+.circle-overlay.hovered {
+    transform: scale(1);
+}
+
+.circle-overlay {
+    position: absolute;
+    width: 2.2rem;
+    border-radius: 50%;
+    top: 25px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: transform 0.6s ease;
+}
+
+.orbit-circle {
+    position: absolute;
+    padding: 0;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.3s ease ease-in-out;
+    filter: drop-shadow(0 0 0.5rem var(--blue));
+
+}
+
+.circle-overlay.hovered .orbit-circle {
+    transform: translate(-50%, -50%) scale(2);
+}
+
+.circle1 {
+    top: -14rem;
+    left: -2rem;
+    transition-delay: 0.19s;
+}
+
+.circle2 {
+    top: -6rem;
+    left: 9rem;
+    transition-delay: 0.19s;
+}
+
+.circle3 {
+    top: 16rem;
+    left: 7rem;
+    transition-delay: 0.19s;
+}
+
+.circle4 {
+    top: 13rem;
+    left: -6rem;
+    transition-delay: 0.19s;
+}
+
+.circle5 {
+    top: -16rem;
+    left: 10rem;
+    transition-delay: 0.19s;
+}
+
+.circle6 {
+    top: 3rem;
+    left: 20rem;
+    transition-delay: 0.19s;
+}
+
+.circle7 {
+    top: -3rem;
+    left: -7rem;
+    transition-delay: 0.19s;
+}
+
+.circle8 {
+    top: -14rem;
+    left: 8rem;
+    transition-delay: 0.19s;
+}
+
+.circle9 {
+    top: -10rem;
+    left: 20rem;
+    transition-delay: 0.19s;
+}
+
+.circle10 {
+    top: 8rem;
+    left: 14rem;
+    transition-delay: 0.19s;
+}
+
+.circle11 {
+    top: 7rem;
+    left: -16rem;
+    transition-delay: 0.19s;
+}
+
+.circle12 {
+    top: -5rem;
+    left: -16rem;
+    transition-delay: 0.19s;
+}
+
+.orbit-circle img {
+    box-shadow: 0 4px 18px rgba(7, 22, 230, 0.896);
+}
+
+.circle1 {
+    position: relative;
+}
+
+.name::after {
+    position: absolute;
+    content: "Java";
+    font-size: .8rem;
+    margin-top: -23rem;
+    padding: 2px 10px;
+    margin-left: -5rem;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    /* transform: scale(0); */
+    background-color: black;
+    border-radius: 18px;
+}
+
+
+.name1::after {
+    position: absolute;
+    content: "Html";
+    font-size: .8rem;
+    margin-top: -8rem;
+    padding: 2px 10px;
+    margin-left: 10rem;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    transform: scale(0);
+    background-color: black;
+    border-radius: 18px;
+}
+
+.name2::after {
+    position: absolute;
+    content: "JavaScript";
+    font-size: .8rem;
+    margin-top: 19rem;
+    padding: 2px 10px;
+    margin-left: 2rem;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    transform: scale(0);
+    background-color: black;
+    border-radius: 18px;
+}
+
+.name3::after {
+    position: absolute;
+    content: "Css";
+    font-size: .8rem;
+    margin-top: 15rem;
+    padding: 2px 10px;
+    margin-left: -10rem;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    transform: scale(0);
+    background-color: black;
+    border-radius: 18px;
+}
+
+.name4::after {
+    position: absolute;
+    content: "React";
+    font-size: .8rem;
+    margin-top: -4rem;
+    padding: 2px 10px;
+    margin-left: 12rem;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    transform: scale(0);
+    background-color: black;
+    border-radius: 18px;
+}
+
+.name5::after {
+    position: absolute;
+    content: "Node.js";
+    font-size: .8rem;
+    margin-top: -1rem;
+    padding: 2px 10px;
+    margin-left: -12rem;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    transform: scale(0);
+    background-color: black;
+    border-radius: 18px;
+}
+
+.name6::after {
+    position: absolute;
+    content: "MongoDB";
+    font-size: .8rem;
+    margin-top: -21rem;
+    padding: 2px 10px;
+    margin-left: 5rem;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    transform: scale(0);
+    background-color: black;
+    border-radius: 18px;
+}
+
+.name7::after {
+    position: absolute;
+    content: "Express.js";
+    font-size: .8rem;
+    margin-top: -17rem;
+    padding: 2px 10px;
+    margin-left: 12rem;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    transform: scale(0);
+    background-color: black;
+    border-radius: 18px;
+}
+
+.name8::after {
+    position: absolute;
+    content: "C_language";
+    font-size: .8rem;
+    margin-top: 10rem;
+    padding: 2px 10px;
+    margin-left: 10rem;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    transform: scale(0);
+    background-color: black;
+    border-radius: 18px;
+}
+
+.name9::after {
+    position: absolute;
+    content: "C++";
+    font-size: .8rem;
+    margin-top: 10rem;
+    padding: 2px 10px;
+    margin-left: -19rem;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    transform: scale(0);
+    background-color: black;
+    border-radius: 18px;
+}
+
+
+.name10::after {
+    position: absolute;
+    content: "figma";
+    font-size: .8rem;
+    margin-top: -13rem;
+    padding: 2px 10px;
+    margin-left: -22rem;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    transform: scale(0);
+    background-color: black;
+    border-radius: 18px;
+}
+
+.name:hover::after,
+.name1:hover::after,
+.name2:hover::after,
+.name3:hover::after,
+.name4:hover::after,
+.name5:hover::after,
+.name6:hover::after,
+.name7:hover::after,
+.name8:hover::after,
+.name9:hover::after,
+.name10:hover::after {
+    opacity: 1;
+    transform: scale(1.3);
+}
+
+
+
+@media (width <=700px) {
+    .skill-section{
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+    .section-1, .section-2 {
+        height: 50vh;
+    }
+  } 
