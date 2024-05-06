@@ -4,10 +4,16 @@
     align-items: center;
 }
 
-.section-1, .section-2 {
+.section-1 {
     width: 50%;
     height: 100vh;
-    margin: 15px;
+    margin: 1.5rem;
+}
+
+.section-2 {
+    width: 50%;
+    height: 100vh;
+    margin: 1.5rem;
 }
 
 .section-1 {
@@ -342,11 +348,12 @@
 
 
 @media (width <=700px) {
-    .skill-section{
+    .skill-section {
         flex-wrap: wrap;
         width: 100vw;
     }
+
     .section-1, .section-2 {
         height: 50vh;
     }
-  } 
+}

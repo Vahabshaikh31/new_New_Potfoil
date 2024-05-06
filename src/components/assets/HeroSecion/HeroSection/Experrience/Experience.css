@@ -14,7 +14,7 @@
   height: 30rem;
   border-radius: 1rem;
   overflow: hidden;
-  font-size: 20px;
+  font-size: 3rem;
   position: relative; /* Added for positioning pseudo-elements */
 }
 
@@ -105,10 +105,9 @@
 @media (width <=600px) {
   
   .experience {
-    height: 40vh;
+    height: 50vh;
   }
   .notification1{
-
     width: 50rem;
     font-size: 3rem;
   }

@@ -1,10 +1,10 @@
 .container {
     position: relative;
-    width: 35rem;
+    width: 39rem;
     height: 32rem;
     transition: 200ms;
     border-radius: 20px;
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 
 
@@ -17,10 +17,7 @@
     align-items: center;
     border-radius: 20px;
     transition: 700ms;
-    /* background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%); */
-
-    background: rgba(0, 0, 0, 0.607);
-    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.386);
 }
 
 
@@ -52,17 +49,42 @@
     align-items: center;
 }
 
+.githubLink {
+    z-index: 1111;
+}
+
 .tracker {
     position: absolute;
-    z-index: 200;
+    z-index: 2;
     width: 100%;
+    font-style: none;
     height: 100%;
+}
+
+a:link {
+    color: white
+}
+
+a:visited {
+    color: white
+}
+
+a:hover {
+    color: whitek;
+}
+
+
+a:active {
+    color: white
 }
 
 .tracker:hover {
     cursor: pointer;
 }
 
+.btn-link {
+    z-index: 1111;
+}
 
 .tracker:hover~#card {
     transition: 300ms;
@@ -76,7 +98,7 @@
 }
 
 .canvas {
-    perspective: 800px;
+    perspective: 80rem;
     inset: 0;
     z-index: 200;
     position: absolute;
@@ -101,7 +123,7 @@
 
 .images {
     padding: 2em;
-    height: 24rem;
+    height: 25rem;
     width: 40rem;
     margin-top: 2rem;
     border-radius: 50px;
@@ -112,22 +134,20 @@
     top: 0;
     left: 1rem;
     font-size: 2.3rem;
-    padding: rem;
+    padding: .8rem;
 }
 
 .Link-btn {
     position: absolute;
-    /* background-color: red; */
     bottom: 1rem;
     right: .5rem;
 }
 
 .h4-tag {
     position: absolute;
-    top: 4rem;
+    top: 5rem;
     left: 2rem;
     width: 70%;
-    /* margin-top:1rem ; */
 }
 
 .img-github {
@@ -136,7 +156,6 @@
 
 #card::before {
     content: '';
-    /* background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%); */
     filter: blur(2rem);
     opacity: 30%;
     width: 100%;
@@ -575,3 +594,33 @@ strong {
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
 }
+
+
+
+a:link {
+    color: white
+}
+  /* visited link */
+  a:visited {
+    color: white }
+  
+  /* mouse over link */
+  a:hover {
+    color: white
+  }
+  
+  /* selected link */
+  a:active {
+    color: white}
+  
+
+
+
+
+
+
+
+
+
+
+

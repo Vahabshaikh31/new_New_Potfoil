@@ -1,8 +1,3 @@
-.Section-First {
-  display: flex;
-  /* width: 100%; */
-}
-
 .Hero {
   width: 100%;
   height: 100vh;
@@ -15,11 +10,18 @@
   align-items: center;
   justify-content: space-evenly;
   position: relative;
-  flex-wrap: wrap;
 }
 
-.section-earth {
-  width: 100%;
+.hero-section-intro {
+  height: 100vh;
+  width: 50%;
+}
+
+.hero-section-profile {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -28,11 +30,8 @@
   height: 100vh;
 }
 
-.hero-profile {
-  height: 100vh;
-  width: 50%;
-  display: flex;
-  align-items: center;
+.section-earth {
+  width: 100%;
   justify-content: center;
 }
 
@@ -45,12 +44,6 @@
 .hero-exp {
   display: flex;
   flex-direction: row;
-}
-
-
-
-.hero-cer-section {
-  margin-top: 5rem;
 }
 
 .hero-cerr {
@@ -97,52 +90,23 @@
 }
 
 
-@media (width <=750px) {
-  .hero-cer-section {
-    margin-top: 400px;
+@media (width <=600px) {
+  .hero-sction-1 {
+    display: flex;
+    flex-direction: column;
   }
 
-  .hero-cerr {
+  .hero-section-intro {
+    height: 100vh;
+    width: 80%;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    width: 100vh;
+    margin-top: 3rem;
   }
-  .sticky{
-    position: sticky;
-    top: 450px;
-    left: 0;
-    justify-content: center;
-    align-items: center;
-    /* height: 100vh; */
+
+  .hero-section-profile {
+    height: 100vh;
+    width: 100%;
   }
-}
-.hero-sec{
-  position: relative;
-}
 
-.span1{
-  height: 30rem;
-  width: 30rem;
-  filter: blur(90px);
-  position: absolute;
-  background-color: rgba(132, 56, 56, 0.885);
-  border-radius: 50%  ;
-  bottom: 13rem;
-}
-
-.span2{
-  height: 30rem;
-  width: 30rem;
-  filter: blur(90px);
-  position: absolute;
-  right: 0;
-  top: 10rem;
-  background-color: rgba(41, 91, 149, 0.885);
-  border-radius: 50%  ;
-
-}
-
-.hero-section-foote{
-  margin-top: -20em;
 }

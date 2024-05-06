@@ -1,110 +1,115 @@
+.intro-section {
+  position: absolute;
+}
+
 .hero-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-  width: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-name {
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: .2rem;
+  color: #8ed2f7;
+  z-index: 11;
+  text-align: center;
+}
+
+.loader {
+  height: .2rem;
+  width: 30rem;
+  background: var(--blue);
+  position: relative;
+  overflow: hidden;
+}
+
+.loader .black_overlay {
+  background: linear-gradient(87deg,
+      rgb(0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.14) 30%,
+      rgba(0, 0, 0, 0.14) 70%,
+      rgb(0, 0, 0) 100%);
+  position: absolute;
+  inset: 0px;
+}
+
+.loader .light {
+  width: 70px;
+  height: 100%;
+  position: absolute;
+  left: -20%;
+  top: 0px;
+  background: linear-gradient(87deg,
+      rgba(235, 8, 8, 0) 0%,
+      rgb(8, 134, 166) 40%,
+      rgb(0, 204, 255) 60%,
+      rgba(0, 0, 0, 0) 100%);
+  animation: light 2s infinite ease-in-out;
+}
+
+@keyframes light {
+  from {
+    left: -30%;
   }
-  
-  .hero-name {
-    font-size: 5rem;
-    font-weight: 800;
-    letter-spacing: .2rem;
-    color: #8ed2f7;
-    z-index: 11;
-    text-align: center;
+
+  to {
+    left: 100%;
   }
-  
-  .loader {
-    height: .2rem;
-    width: 30rem;
-    background: var(--blue);
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .loader .black_overlay {
-    background: linear-gradient(87deg,
-        rgb(0, 0, 0) 0%,
-        rgba(0, 0, 0, 0.14) 30%,
-        rgba(0, 0, 0, 0.14) 70%,
-        rgb(0, 0, 0) 100%);
-    position: absolute;
-    inset: 0px;
-  }
-  
-  .loader .light {
-    width: 70px;
-    height: 100%;
-    position: absolute;
-    left: -20%;
-    top: 0px;
-    background: linear-gradient(87deg,
-        rgba(235, 8, 8, 0) 0%,
-        rgb(8, 134, 166) 40%,
-        rgb(0, 204, 255) 60%,
-        rgba(0, 0, 0, 0) 100%);
-    animation: light 2s infinite ease-in-out;
-  }
-  
-  @keyframes light {
-    from {
-      left: -30%;
-    }
-  
-    to {
-      left: 100%;
-    }
-  }
-  
-  
-  .hero-heading {
-    margin-top: 10px;
-    z-index: 11;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .btn-shine {
-    padding: 4px 4px;
-    background: linear-gradient(to right, #fff, #868686);
-    background-position: 0;
-    background-clip: text;
-    color: transparent;
-    font-weight: 600;
-    font-size: 1.5rem;
-    text-decoration: none;
-    white-space: nowrap;
-    z-index: 11;
-  }
-  
-  .btn-shine2 {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    font-size: 1.4rem;
-    margin-top: 1rem;
-    background: linear-gradient(to right top, #d3caca, #b7aeae);
-    background-position: 0;
-    background-clip: text;
-    color: transparent;
-    font-weight: 600;
-    word-spacing: 2px;
-  }
-  
-  .hero-Links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 8rem;
-    gap: 2.5rem;
-  }
-  
- 
-  
+}
+
+
+.hero-heading {
+  margin-top: 10px;
+  z-index: 11;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-shine {
+  padding: 4px 4px;
+  background: linear-gradient(to right, #fff, #868686);
+  background-position: 0;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-decoration: none;
+  white-space: nowrap;
+  z-index: 11;
+}
+
+.btn-shine2 {
+  display: flex;
+  text-align: center;
+  width: 95%;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  background: linear-gradient(to right top, #d3caca, #b7aeae);
+  background-position: 0;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  word-spacing: .2rem;
+  background-color: red;
+}
+
+.hero-Links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  gap: 2.5rem;
+}
+
+
+
 
 
 
@@ -121,8 +126,7 @@
   border: 1px solid #ffffff4d;
   outline: none;
   overflow: hidden;
-  font-size: 1.5rem
-  ;
+  font-size: 1.5rem;
   margin-top: 2rem;
   z-index: 11;
 }

@@ -16,7 +16,7 @@
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
   font-weight: 100;
-  font-style: normal;
+  font-style: none;
 }
 
 
@@ -27,24 +27,26 @@ html {
 
 @media (width <=1000px) {
   html {
-    font-size: 8px;
+    font-size: 9px;
   }
-} 
+}
 
 @media (width <=800px) {
   html {
-    font-size: 7px;
+    font-size: 8px;
   }
 
 }
 
-@media (width <=450px) {
+@media (width <=600px) {
   html {
-    font-size:7px;
+    font-size: 8px;
   }
-}@media (width <=390px) {
+}
+
+@media (width <=390px) {
   html {
-    font-size: 9px;
+    font-size: 8px;
   }
 }
 
@@ -55,5 +57,4 @@ body {
   color: #fff;
   height: 100%;
   width: 100%;
-
 }

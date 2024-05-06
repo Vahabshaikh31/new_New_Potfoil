@@ -86,7 +86,7 @@ const Earth = () => {
         </div>
 
         <div className="earth-section">
-          
+
           <Experi Title="WEB DEVELOPMENT INTERNSHIP , CODE ALPHA" Time="1st march to 30th march " Descr="During my internship at Code Alpha, I fully immersed myself in 
 completing assigned tasks with diligence and precision. I actively 
 contributed to project development, consistently delivering highquality work. Additionally, I seized every opportunity to broaden my 

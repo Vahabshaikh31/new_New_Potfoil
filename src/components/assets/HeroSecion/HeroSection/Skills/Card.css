@@ -1,5 +1,5 @@
 .card1 {
-    padding: 10px;
+    padding: 1rem;
     color: white;
     border: 2px solid transparent;
     border-radius: 8px;
@@ -17,19 +17,19 @@
 .card1 .header1 span:first-child {
     font-weight: 600;
     color: #717171;
-    margin-right: 4px;
+    margin-right: .4rem;
 }
 
 .card1 .header1 span:nth-child(2) {
     font-weight: 600;
     font-size: 2rem;
     color: #fff;
-    margin-right: 4px;
+    margin-right: .4rem ;
 }
 
-.card1 .heading1 {
+.card1 {
     font-size: 1.4rem;
-    margin: 24px 0 16px;
+    margin: 2.4rem 0 1.6rem;
     font-weight: 600;
     position: relative;
     transform-style: preserve-3d;
@@ -37,17 +37,26 @@
     transition: transform .5s;
 }
 
-.card1 .categories1 {
+.heading1{
+    font-size: 1.2rem;
+    margin: 2.4rem 0 1.6rem;
+    font-weight: 600;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+}
+ .categories1 {
     display: flex;
     gap: .5rem;
     flex-wrap: wrap;
     transform-style: preserve-3d;
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 .card1 .categories1 span {
     background-color: #e81cff;
-    padding: 4px 8px;
+    padding: .4rem .8rem;
     font-weight: 600;
     font-size: 1.2rem;
     border-radius: 50em;
@@ -56,11 +65,13 @@
     transition: transform .5s;
     position: relative;
 }
-
+.categories1 span{
+    font-size: 2rem;
+}
 .card1 .footer1 {
     font-weight: 500;
     color: #717171;
-    margin-right: 4px;
+    margin-right: .4rem;
 }
 
 .heading1 .header1 .categories1 {
@@ -79,8 +90,8 @@
 
 .wave {
     position: absolute;
-    width: 440px;
-    height: 700px;
+    width: 44rem;
+    height: 70rem;
     opacity: 0.6;
     left: 0;
     top: 0;
@@ -90,6 +101,7 @@
     border-radius: 40%;
     animation: wave 55s infinite linear;
 }
+
 
 .icon {
     width: 3em;
@@ -135,6 +147,7 @@
     animation-duration: 45s;
 }
 
+
 @keyframes wave {
     0% {
         transform: rotate(0deg);
@@ -145,3 +158,16 @@
     }
 }
 
+
+
+@media ( width <= 400) {
+    .e-card {
+        background: transparent;
+        position: relative;
+        width: 10rem;
+        height: 60rem;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 6px 8px 20px 1px #af40ff;
+    }
+}

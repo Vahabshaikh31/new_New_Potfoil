@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import './Profile.css'
-// import My from '../../../../../Images/My.jpg'
 
 const Profile = () => {
     return (

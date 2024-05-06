@@ -4,7 +4,6 @@ const Navbar = () => {
     return (
         <>
             <header className="nav-main">
-
                 <div className="nav-content">
                     <Link exactly to="/" className='nav-fontsize links'>Home</Link>
                     <Link to="/Projects" className='nav-fontsize links '>Projects</Link >
@@ -12,9 +11,7 @@ const Navbar = () => {
                     <div className="nav-darkmode nav-fontsize ">
                     </div>
                 </div>
-
             </header>
-
         </>
     )
 }

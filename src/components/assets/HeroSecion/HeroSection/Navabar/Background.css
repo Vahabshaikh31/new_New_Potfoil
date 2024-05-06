@@ -1,6 +1,3 @@
-
-
-
 .bubbles {
   position: relative;
   display: flex;
@@ -14,14 +11,14 @@
   background: #4fc3dc;
   margin: 0 4px;
   border-radius: 50%;
-  box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 10px #4fc3dc;
+  box-shadow: 0 0 0 1rem #4fc3dc44, 0 0 50px #4fc3dc, 0 0 1rem #4fc3dc;
   animation: bubbles 2s ease infinite;
   animation-delay: calc(125s / var(--i));
 }
 
 .bubbles span:nth-child(even) {
   background-color: #ff2d75;
-  box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 10px #4fc3dc;
+  box-shadow: 0 0 0 1rem #4fc3dc44, 0 0 50px #4fc3dc, 0 0 1rem #4fc3dc;
 }
 
 @keyframes bubbles {

@@ -5,7 +5,6 @@ const Card = () => {
         <>
             <div className="e-card playing">
                 <div className="image"></div>
-
                 <div className="wave"></div>
                 <div className="wave"></div>
                 <div className="wave"></div>
