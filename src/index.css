@@ -40,22 +40,18 @@ html {
 
 @media (width <=450px) {
   html {
-    font-size: 7px;
+    font-size:7px;
   }
 }@media (width <=390px) {
   html {
-    font-size: 6.5px;
-  }
-}@media (width <=360px) {
-  html {
-    font-size: 6px;
+    font-size: 9px;
   }
 }
 
 body {
   background: linear-gradient(to top,
       #000336,
-      #121212);
+      #000000);
   color: #fff;
   height: 100%;
   width: 100%;

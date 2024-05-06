@@ -4,14 +4,16 @@
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+  width: 100;
   }
   
   .hero-name {
     font-size: 5rem;
     font-weight: 800;
-    letter-spacing: 2px;
+    letter-spacing: .2rem;
     color: #8ed2f7;
     z-index: 11;
+    text-align: center;
   }
   
   .loader {
@@ -82,7 +84,7 @@
   .btn-shine2 {
     display: flex;
     text-align: center;
-    width: 45rem;
+    width: 100%;
     font-size: 1.4rem;
     margin-top: 1rem;
     background: linear-gradient(to right top, #d3caca, #b7aeae);
@@ -91,7 +93,6 @@
     color: transparent;
     font-weight: 600;
     word-spacing: 2px;
-    width: 60rem;
   }
   
   .hero-Links {
@@ -99,7 +100,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 8rem;
-    gap: 25px;
+    gap: 2.5rem;
   }
   
  
@@ -139,7 +140,7 @@
   height: 100%;
   background-image: linear-gradient(120deg, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.468), rgba(255, 255, 255, 0.027) 50%);
   top: 0;
-  left: -100px;
+  left: -10rem;
   opacity: 0.6;
 }
 
@@ -158,8 +159,8 @@
 }
 
 .Btn {
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
   border: none;
   border-radius: 50%;
   background-color: rgb(27, 27, 27);
@@ -179,8 +180,8 @@
 }
 
 .icon2 {
-  width: 18px;
-  height: 5px;
+  width: 1.8rem;
+  height: .5rem;
   border-bottom: 2px solid rgb(182, 143, 255);
   border-left: 2px solid rgb(182, 143, 255);
   border-right: 2px solid rgb(182, 143, 255);
@@ -188,7 +189,7 @@
 
 .tooltip {
   position: absolute;
-  right: -105px;
+  right: -10.5rem;
   opacity: 0;
   background-color: rgb(12, 12, 12);
   color: white;
@@ -205,8 +206,8 @@
 .tooltip::before {
   position: absolute;
   content: "";
-  width: 10px;
-  height: 10px;
+  width: 1rem;
+  height: 1rem;
   background-color: rgb(12, 12, 12);
   background-size: 1000%;
   background-position: center;
