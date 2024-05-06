@@ -23,11 +23,11 @@ const ActiveSlider = () => {
         breakpoints={{
           340: {
             slidesPerView: 2,
-            spaceBetween: 145,
+            spaceBetween: 15,
           },
           700: {
             slidesPerView: 2,
-            spaceBetween: 145,
+            spaceBetween: 15,
           },
         }}
         freeMode={true}
