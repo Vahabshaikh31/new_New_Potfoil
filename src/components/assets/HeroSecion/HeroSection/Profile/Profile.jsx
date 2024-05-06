@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Profile.css'
 // import My from '../../../../../Images/My.jpg'
 
@@ -19,22 +20,22 @@ const Profile = () => {
                     </div>
                     <div className="bottom-bottom">
                         <div className="social-links-container">
-                            <a href="https://www.linkedin.com/in/abdulvahab-shaikh-aa3464305/">
+                            <a target="vahab" href="https://www.linkedin.com/in/abdulvahab-shaikh-aa3464305/">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg>
                             </a>
-                            <a href="https://www.hackerrank.com/profile/svahab33">
+                            <a target="vahab" href="https://www.hackerrank.com/profile/svahab33">
 
                             <svg width="24px" height="24px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><title>HackerRank icon</title><path d="M12 0c1.285 0 9.75 4.886 10.392 6 .645 1.115.645 10.885 0 12S13.287 24 12 24s-9.75-4.885-10.395-6c-.641-1.115-.641-10.885 0-12C2.25 4.886 10.715 0 12 0zm2.295 6.799c-.141 0-.258.115-.258.258v3.875H9.963V6.908h.701c.141 0 .254-.115.254-.258 0-.094-.049-.176-.123-.221L9.223 4.92c-.049-.063-.141-.109-.226-.109-.084 0-.16.045-.207.107L7.11 6.43c-.072.045-.12.126-.12.218 0 .143.113.258.255.258h.704l.008 10.035c0 .145.111.258.254.258h1.492c.142 0 .259-.115.259-.256v-4.004h4.073v4.152h-.699c-.143 0-.256.115-.256.258 0 .092.048.174.119.219l1.579 1.51c.044.061.141.109.225.109.085 0 .159-.045.208-.109l1.679-1.51c.072-.045.12-.127.12-.219 0-.143-.115-.258-.255-.258h-.704l-.007-10.034c0-.145-.114-.26-.255-.26h-1.494v.002z"/></svg>
                             </a>
 
-                            {/* <a href="">
+                            {/* <a target="vahab" href="">
                                 <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
                                     ></path>
                                 </svg>
                             </a> */}
-                            <a href="https://github.com/Vahabshaikh31">
+                            <a target="vahab" href="https://github.com/Vahabshaikh31">
 
                                 <svg viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -44,7 +45,9 @@ const Profile = () => {
                             </a>
 
                         </div>
-                        <button className="button">Contact Me</button>
+                        <button className="button">
+                          <Link to="/Contact" >Contact</Link>
+                        </button>
                     </div>
                 </div>
             </div>

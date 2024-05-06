@@ -53,10 +53,14 @@ const HeroSEction = () => {
         <span className="span2"></span>
       </div>
 
-      <Cetificate/>
+   <div className="hero-section-certificate">
+    <Cetificate/>
+    </div>   
       </div>
+<div className="hero-section-foote">
+<Footer />
 
-      <Footer />
+</div>
     </>
 
   )
