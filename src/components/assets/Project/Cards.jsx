@@ -1,9 +1,23 @@
 import './Cards.css';
 import Github from '../../../Images/Github.svg';
-
+import  { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'   
 const Cards = (props) => {
+    useEffect(() => {
+        // Trigger effect after component has mounted
+        Aos.init({
+          duration: 650,
+        });
+    
+        // Optionally, you can clean up the effect
+        return () => {
+          Aos.refresh();
+        };
+      }, []); 
     return (
-        <a href={props.GithubLink} target="vahsb" className="container noselect">  <div className="container noselect">
+        <a data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom" href={props.GithubLink} target="vahsb" className="container noselect">  <div className="container noselect">
             <div className="canvas">
                 <div className="tracker tr-1"></div>
                 <div className="tracker tr-2"></div>

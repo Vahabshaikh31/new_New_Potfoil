@@ -1,8 +1,6 @@
 import Navbar from "../HeroSecion/HeroSection/Navabar/Navbar"
 import Cards from "./Cards"
 import Project1 from '../../../Images/ProjectsImg/AmazonCLone.png'
-// import Project2 from '../../../Images/ProjectsImg/ecommerce.png'
-// import Project3 from '../../../Images/ProjectsImg/musicapp.png'
 import Project4 from '../../../Images/ProjectsImg/Portfoil.png'
 import Project5 from '../../../Images/ProjectsImg/CurdOpration.png'
 import Project6 from '../../../Images/ProjectsImg/KeepNotes.png'
