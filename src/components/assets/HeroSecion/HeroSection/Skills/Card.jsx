@@ -1,15 +1,23 @@
 import './Card.css';
-
+import { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const Card = () => {
+
+    useEffect(() => {
+        Aos.init();
+    }, [])
     return (
         <>
-            <div className="e-card playing">
+            <div data-aos="fade-right"
+                data-aos-offset="400"
+                data-aos-easing="ease-in-sine" className="e-card playing ">
                 <div className="image"></div>
                 <div className="wave"></div>
                 <div className="wave"></div>
                 <div className="wave"></div>
-                
-                <div className="infotop">
+
+                <div className="infotop ">
                     <div className="card1">
                         <div className="main-content1">
                             <div className="header1">

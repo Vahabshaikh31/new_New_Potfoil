@@ -13,9 +13,15 @@ import Clan from '../../../../../Images/c-1.svg'
 import Cplus from '../../../../../Images/c++.svg'
 import Figma from '../../../../../Images/Figma.svg'
 import Card from './Card';
-
+import  { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const CircleHover = () => {
+     
+  useEffect(() => {
+    Aos.init();
+}, [])
   const [isHovered, setIsHovered] = useState(true);
 
   const handleHover = () => {
@@ -27,7 +33,11 @@ const CircleHover = () => {
   };
 
   return (
-    <div className="skill-section">
+    <div   data-aos="fade-left"
+    data-aos-offset="400"
+    data-aos-easing="ease-in-sine" 
+   className="skill-section "
+   >
       <div className="section-1">
         <Card />
       </div>

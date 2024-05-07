@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import './Profile.css'
 
 const Profile = () => {
+    
     return (
         <>
             <div className="card">
