@@ -13,17 +13,17 @@ import Clan from '../../../../../Images/c-1.svg'
 import Cplus from '../../../../../Images/c++.svg'
 import Figma from '../../../../../Images/Figma.svg'
 import Card from './Card';
-import  { useEffect } from 'react'
+import { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 const CircleHover = () => {
-     
+
   useEffect(() => {
     Aos.init();
-}, [])
-  const [isHovered, setIsHovered] = useState(true);
+  }, []);
 
+  const [isHovered, setIsHovered] = useState(true);
   const handleHover = () => {
     setIsHovered(true);
   };
@@ -33,11 +33,9 @@ const CircleHover = () => {
   };
 
   return (
-    <div   data-aos="fade-left"
-    data-aos-offset="400"
-    data-aos-easing="ease-in-sine" 
-   className="skill-section "
-   >
+    <div data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-sine"
+      className="skill-section "
+    >
       <div className="section-1">
         <Card />
       </div>
@@ -51,7 +49,7 @@ const CircleHover = () => {
             <img src={imgs} alt="" />
             <span className="Soft">Technology's</span>
           </div>
-
+          
           <div className={`circle-overlay ${isHovered ? 'hovered' : ''}`}>
             <div className="name"> <img src={Java} className="orbit-circle circle1" /></div>
             <div className="name1"> <img src={Html}
