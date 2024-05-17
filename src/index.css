@@ -38,7 +38,7 @@ html {
 
 }
 
-@media (width <=600px) {
+@media (width <=650px) {
   html {
     font-size: 8px;
   }
@@ -51,10 +51,20 @@ html {
 }
 
 body {
-  background: linear-gradient(to top,
-      #000336,
-      #000000);
+  /* background-image: linear-gradient(to right top,
+      #051937,
+      #004d7a,
+      #008793,
+      #20a16d,
+      #a6eb1238); */
+
+      background:#000;
   color: #fff;
   height: 100%;
   width: 100%;
+}
+
+.active {
+  background-color: var(--blue);
+ 
 }

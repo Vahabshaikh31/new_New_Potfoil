@@ -182,6 +182,6 @@
 
 @media (width <=600px) {
   .card {
-    display: none;
+    /* display: none; */
   }
 }

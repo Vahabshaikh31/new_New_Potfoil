@@ -1,13 +1,12 @@
 import Navbar from "./Navabar/Navbar"
 import './HeroSection.css'
 import Profile from "./Profile/Profile"
-import Backgound from "./Navabar/Backgound"
 import Footer from "./Footer/Footer"
 import Skills from "./Skills/Skills"
 import Intro from "./Profile/Intro"
 import Earth from "./Experrience/Earth"
-import Cetificate from "./Certification/Cetificate"
-
+import Vortex from "../../../ui/vortex";
+import {HeroParallaxDemo} from './Certification/hro-parreler'
 
 const HeroSEction = () => {
   return (
@@ -17,10 +16,9 @@ const HeroSEction = () => {
         <div className="nav">
           <Navbar />
         </div>
-
         <div className='hero-sction-1'>
           <div className="hero-Back">
-            <Backgound />
+            <Vortex />    
           </div>
           <div className="hero-section-intro">
             <Intro />
@@ -30,7 +28,7 @@ const HeroSEction = () => {
           </div>
         </div>
       </div>
-      
+
       <div className="hero-Skill"><Skills /> </div>
 
       <div className="section-earth">
@@ -41,15 +39,13 @@ const HeroSEction = () => {
           <span className="span1"></span>
           <span className="span2"></span>
         </div>
-
-        <div className="hero-section-certificate">
-          <Cetificate />
-        </div>
-      </div>
+      </div>  
+      <HeroParallaxDemo/>
       <div className="hero-section-foote">
         <Footer />
 
       </div>
+    
     </>
 
   )
