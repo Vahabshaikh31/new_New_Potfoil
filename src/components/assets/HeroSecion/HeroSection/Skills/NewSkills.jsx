@@ -1,47 +1,85 @@
-import  AnimatedTooltip  from "../../../../ui/Skillsui";
+import AnimatedTooltip from "../../../../ui/Skillsui";
+import Java from '../../../../../Images/Java.svg'
+import Css from '../../../../../Images/Css.svg'
+import Html from '../../../../../Images/Html.svg'
+import JavaScript from '../../../../../Images/JavaScript.svg'
+import React from '../../../../../Images/React.svg'
+import MongoDB from '../../../../../Images/MongoDB.svg'
+import Node from '../../../../../Images/Node.svg'
+import Express from '../../../../../Images/Express.svg'
+import Clan from '../../../../../Images/c-1.svg'
+import Cplus from '../../../../../Images/c++.svg'
+import Figma from '../../../../../Images/Figma.svg'
 
 const people = [
   {
     id: 1,
-    name: "John Doe",
-    designation: "Software Engineer",
-    image:
-      "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
+    name: "C language",
+    designation: "programming languages", 
+    image: Clan
   },
   {
     id: 2,
-    name: "Robert Johnson",
-    designation: "Product Manager",
-    image:
-      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+    name: "C++ language",
+    designation: "programming languages",
+    image: Cplus
   },
   {
     id: 3,
-    name: "Jane Smith",
-    designation: "Data Scientist",
-    image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+    name: "Java Programming",
+    designation: "programming languages",
+    image: Java
   },
   {
     id: 4,
-    name: "Emily Davis",
-    designation: "UX Designer",
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    name: "Html",
+    designation: "Front-End Development",
+    image: Html
   },
   {
     id: 5,
-    name: "Tyler Durden",
-    designation: "Soap Developer",
-    image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+    name: "Css",
+    designation: "Front-End Development",
+    image: Css
+  }, {
+    id: 6,
+    name: "javaScript",
+    designation: "Front-End Development",
+    image: JavaScript
+  }, {
+    id: 7,
+    name: "React.js",
+    designation: "Front-End Development",
+    image: React
+  }, {
+    id: 8,
+    name: "Node.js",
+    designation: "Back-end development",
+    image: Node
+  }, {
+    id: 9,
+    name: "Express.js",
+    designation: "Back-end Developer",
+    image: Express
   },
-  
+  {
+    id: 10,
+    name: "MongoDB",
+    designation: "Database management",
+    image: MongoDB
+  }, {
+    id: 11,
+    name: "Figma",
+    designation: "UI/UX design",
+    image: Figma
+  },
+
+
 ];
 
-export  function AnimatedTooltipPreview() {
+export function AnimatedTooltipPreview() {
   return (
-    <div className="flex flex-row flex-wrap items-center justify-center mb-10 w-full">
+    <div className="flex flex-row flex-wrap items-center justify-center mb-40 w-full">
       <AnimatedTooltip items={people} />
     </div>
   );

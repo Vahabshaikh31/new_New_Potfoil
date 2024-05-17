@@ -8,7 +8,6 @@ import Project7 from '../../../Images/ProjectsImg/DashBoard.png'
 import Project8 from '../../../Images/ProjectsImg/Expensese Tracker.png'
 import Project9 from '../../../Images/ProjectsImg/TodoList.png';
 import Project10 from '../../../Images/ProjectsImg/Tik-tak.png';
-import { StickyScrollRevealDemo } from './NEw'
 
 import './Projects.css'
 const Projects = () => {

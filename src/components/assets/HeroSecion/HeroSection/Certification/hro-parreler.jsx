@@ -1,6 +1,18 @@
 import React from "react";
 import HeroParallax from "../../../../ui/hero-parallax"; // Adjust the import path based on your project structure
 
+
+import SpaceCity4 from '../../../../../Images/Certificate/HackerRank-Sql.png';
+import SpaceCity1 from '../../../../../Images/Certificate/Code-Aplha_intern.png';
+import SpaceCity5 from '../../../../../Images/Certificate/Coding-Ninja_java.png';
+import SpaceCity3 from '../../../../../Images/Certificate/HackerRan-Css.png';
+import SpaceCity6 from '../../../../../Images/Certificate/YBI-Python.png';
+import SpaceCity7 from '../../../../../Images/Certificate/YBU-regrationModel.png';
+import SpaceCity2 from '../../../../../Images/Certificate/hackerrank-Java.png';
+import SpaceCity8 from '../../../../../Images/Certificate/YBU-regrationModel.png';
+import SpaceCity9 from '../../../../../Images/Certificate/Hackerrank-problemSolving.png';
+
+
 export function HeroParallaxDemo() {
   return <HeroParallax products={products} />;
 }
@@ -9,91 +21,66 @@ export const products = [
   {
     title: "Moonbeam",
     link: "https://gomoonbeam.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+    thumbnail: SpaceCity1,
   },
   {
     title: "Cursor",
     link: "https://cursor.so",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+    thumbnail: SpaceCity2,
+  
   },
   {
     title: "Rogue",
     link: "https://userogue.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
-  },
+    thumbnail: SpaceCity3,
+  
+  }
+   ,
   {
     title: "Editorially",
     link: "https://editorially.org",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+  
+    thumbnail: SpaceCity4,
+    
   },
   {
     title: "Editrix AI",
     link: "https://editrix.ai",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+    thumbnail: SpaceCity5,
+  
   },
   {
     title: "Pixel Perfect",
     link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+    thumbnail: SpaceCity6,
+  
+    
   },
   {
     title: "Algochurn",
     link: "https://algochurn.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+  
+    thumbnail: SpaceCity7,
+    
   },
   {
     title: "Aceternity UI",
     link: "https://ui.aceternity.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+  
+    thumbnail: SpaceCity8,
+    
   },
   {
     title: "Tailwind Master Kit",
     link: "https://tailwindmasterkit.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+    thumbnail: SpaceCity9,
+  
   },
   {
     title: "SmartBridge",
     link: "https://smartbridgetech.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
-  },
-  {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
-  },
-  {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
-  },
-  {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
-  },
-  {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+    thumbnail: SpaceCity7,
+  
+    
   },
 ];

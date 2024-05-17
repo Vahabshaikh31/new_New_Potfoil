@@ -7,10 +7,10 @@ export const HoverEffect = ({ items, className }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className={cn("grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10", className)}>
+    <div className={cn("grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-20", className)}>
       {items.map((item, idx) => (
         <a
-          href={item.link} // Removed optional chaining as link is mandatory
+          href={item.link} 
           key={item.link}
           className="relative group block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
@@ -29,7 +29,9 @@ export const HoverEffect = ({ items, className }) => {
           </AnimatePresence>
           <Card>
             <CardTitle>{item.title}</CardTitle>
+            <CardRole>{item.Role}</CardRole>
             <CardDescription>{item.description}</CardDescription>
+
           </Card>
         </a>
       ))}
@@ -56,7 +58,13 @@ export const CardTitle = ({ className, children }) => {
     </h4>
   );
 };
-
+export const CardRole = ({ className, children }) => {
+  return (
+    <h4 className={cn("text-zinc-100  tracking-wide mt-2", className)}>
+      {children}
+    </h4>
+  );
+};
 // CardDescription component
 export const CardDescription = ({ className, children }) => {
   return (

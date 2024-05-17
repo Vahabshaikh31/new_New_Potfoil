@@ -12,36 +12,36 @@ import SpaceCity9 from '../../../../../Images/Certificate/Hackerrank-problemSolv
 
 export const ServiceData = [
   {
-    backgroundImage: SpaceCity1,
+    thumbnail: SpaceCity1,
     Link:"https://drive.google.com/file/d/1pNP3jBzfLZjGVaMsJItjeBKastZ-Rh5v/view?usp=drive_link"
   },
   {
-    backgroundImage: SpaceCity2,
+    thumbnail: SpaceCity2,
     Link:"https://drive.google.com/file/d/1nmVfn1l6vY4PF38iojIC-YQJUPNrUSs5/view?usp=drive_link"
   },
   {
-    backgroundImage: SpaceCity3,
+    thumbnail: SpaceCity3,
     Link:"https://drive.google.com/file/d/1fpioZCh233Jct9OU2Ymf1YbCO3nfGShE/view?usp=drive_link"
   },
   {
-    backgroundImage: SpaceCity4,
+    thumbnail: SpaceCity4,
     Link:"https://drive.google.com/file/d/15KQZ3wIPbM5JlcJPZfGKhT97WOnOgsIs/view?usp=drive_link"
   },
 
   {
-    backgroundImage: SpaceCity5,
+    thumbnail: SpaceCity5,
     Link:"https://drive.google.com/file/d/1g4jB7NNVh1us5LKOsXdJN8sOlBytDC-N/view?usp=drive_link"
   }, {
-    backgroundImage: SpaceCity6,
+    thumbnail: SpaceCity6,
     Link:"https://drive.google.com/file/d/1Y4NCK14FbhEmdAps1tVKA5ea68cTixfn/view?usp=drive_link"
   }, {
-    backgroundImage: SpaceCity7,
+    thumbnail: SpaceCity7,
     Link:"https://drive.google.com/file/d/1_3ZpBIekRgRTCOH8MSPVY7sdqOpz4PHw/view?usp=drive_link"
   }, {
-    backgroundImage: SpaceCity8,
+    thumbnail: SpaceCity8,
     Link:"https://drive.google.com/file/d/1yXl9NFJpHIfjdzf4dYbbID000jpKc0km/view?usp=drive_link"
   },{
-    backgroundImage: SpaceCity9,
+    thumbnail: SpaceCity9,
     Link:"https://drive.google.com/file/d/1iKEGJbNcrq57lImbahVOw4eb2Ga1bB7z/view?usp=drive_link"
   },
 ];
