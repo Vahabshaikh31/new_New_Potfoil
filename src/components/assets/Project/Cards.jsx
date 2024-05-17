@@ -58,6 +58,7 @@ const Cards = (props) => {
                         <img src={props.IMG} alt="" className="images" />
                     </div>
                 </div>
+                
             </div>
         </div>
         </a>

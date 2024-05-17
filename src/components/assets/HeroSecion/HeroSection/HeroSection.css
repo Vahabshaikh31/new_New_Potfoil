@@ -34,7 +34,19 @@
   width: 100%;
   justify-content: center;
 }
+.hero-Skill{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+  gap: 5rem;
+}
 
+.hero-h1{
+  font-size: 3rem;
+  font-weight: 800; 
+  text-shadow: 1px 1px 1px #fff;
+}
 .hero-Back {
   position: absolute;
   left: 0;

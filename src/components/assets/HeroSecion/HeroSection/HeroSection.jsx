@@ -2,11 +2,14 @@ import Navbar from "./Navabar/Navbar"
 import './HeroSection.css'
 import Profile from "./Profile/Profile"
 import Footer from "./Footer/Footer"
-import Skills from "./Skills/Skills"
+import { AnimatedTooltipPreview } from './Skills/NewSkills';
+
 import Intro from "./Profile/Intro"
-import Earth from "./Experrience/Earth"
+
+import { CardHoverEffectDemo } from "./Experrience/ExperineceNew"
+
 import Vortex from "../../../ui/vortex";
-import {HeroParallaxDemo} from './Certification/hro-parreler'
+import { HeroParallaxDemo } from './Certification/hro-parreler'
 
 const HeroSEction = () => {
   return (
@@ -18,7 +21,7 @@ const HeroSEction = () => {
         </div>
         <div className='hero-sction-1'>
           <div className="hero-Back">
-            <Vortex />    
+            <Vortex />
           </div>
           <div className="hero-section-intro">
             <Intro />
@@ -29,23 +32,28 @@ const HeroSEction = () => {
         </div>
       </div>
 
-      <div className="hero-Skill"><Skills /> </div>
+      <div className="hero-Skill">
+        <h1 className="hero-h1">Skills</h1>
+        <AnimatedTooltipPreview />
+      </div>
 
       <div className="section-earth">
-        <Earth />
+        {/* <Earth /> */}
+        <CardHoverEffectDemo />
       </div>
       <div className="hero-sec">
         <div className="hero-cer-secction">
           <span className="span1"></span>
           <span className="span2"></span>
         </div>
-      </div>  
-      <HeroParallaxDemo/>
+      </div>
+      <HeroParallaxDemo />
       <div className="hero-section-foote">
         <Footer />
 
       </div>
-    
+
+
     </>
 
   )

@@ -8,7 +8,7 @@ import Project7 from '../../../Images/ProjectsImg/DashBoard.png'
 import Project8 from '../../../Images/ProjectsImg/Expensese Tracker.png'
 import Project9 from '../../../Images/ProjectsImg/TodoList.png';
 import Project10 from '../../../Images/ProjectsImg/Tik-tak.png';
-
+import { StickyScrollRevealDemo } from './NEw'
 
 import './Projects.css'
 const Projects = () => {
@@ -25,7 +25,6 @@ const Projects = () => {
         <span className="section-span"></span>
         <span className="section-span"></span>
         <span className="section-span"></span>
-
       </section>
 
       <div className="cards">
@@ -33,8 +32,6 @@ const Projects = () => {
 
         <Cards IMG={Project9} content="TO DO List Using reactJS Logic."
           GithubLink="https://github.com/Vahabshaikh31/react-Projects/tree/main/src/practice/TodoList" title="TO DO List" />
-
-        {/* <Cards IMG={Project3} content="Music App Creating using React + Tailwan Css " GithubLink="" title="Music App" /> */}
 
 
 
@@ -49,8 +46,10 @@ const Projects = () => {
         <Cards IMG={Project4} content="Potfoil Using React and react Librarys's." GithubLink="https://abdulvahabshaikh.netlify.app/" title="Potfoil" />
 
         <Cards IMG={Project5} content="Form where user write Username and password.it will save in data base" GithubLink="https://github.com/Vahabshaikh31/react-Projects/tree/main/src/CrudOpration" title="Form" />
-
+     
       </div>
+      qqwbi 8grgpibwlpgwiqlrwil
+
     </>
   )
 }

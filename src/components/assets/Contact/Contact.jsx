@@ -1,11 +1,12 @@
 import './Contact.css'
 import Navbar from '../HeroSecion/HeroSection/Navabar/Navbar'
-
+import {BackgroundBeamsDemo} from './Back'
 const Contact = () => {
   return (
     <div className="Contact-section">
 
       <div className="wrapper">
+        {/* <span></span>
         <span></span>
         <span></span>
         <span></span>
@@ -14,17 +15,19 @@ const Contact = () => {
         <span></span>
         <span></span>
         <span></span>
-        <span></span>
-        <span></span>
+        <span></span> */}
+  <BackgroundBeamsDemo/>
+
+      
       </div>
       <Navbar />
       <div className="form">
         <div className="form-contact">
           Connect With Me
         </div>
-        <div className="form-decription">
+        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
           Hello 👋 wanna get in touch with me. I provide reliable communication solutions for your inquiries, feedback, or collaborations. Whether you are reaching out for Tech opportunity or just want to Type Your Email, I have got you covered.
-        </div>
+        </p>
 
         <div className="form-input">
           <form action="https://formspree.io/f/moqgrrbk" method="POST" >
@@ -82,7 +85,6 @@ const Contact = () => {
             </form>
         </div>
       </div>
-
     </div>
   )
 }
