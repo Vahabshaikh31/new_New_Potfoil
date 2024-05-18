@@ -15,7 +15,9 @@
   font-size: 5rem;
   font-weight: 800;
   letter-spacing: .2rem;
-  color: #8ed2f7;
+  color: #fff;
+  text-shadow: 1px 1px 1px #fff;
+  letter-spacing: 1.4px;
   z-index: 11;
   text-align: center;
 }
@@ -91,13 +93,12 @@
   width: 95%;
   font-size: 1.4rem;
   margin-top: 1rem;
-  background: linear-gradient(to right top, #d3caca, #b7aeae);
   background-position: 0;
   background-clip: text;
   color: transparent;
   font-weight: 600;
   word-spacing: .2rem;
-  background-color: red;
+  color: rgb(161 ,161, 170 ,1);
 }
 
 .hero-Links {
@@ -129,11 +130,13 @@
   font-size: 1.5rem;
   margin-top: 2rem;
   z-index: 11;
+  background-color: #000;
+  
 }
 
 .button:hover {
   transform: scale(1.05);
-  border-color: #fff9;
+  border-color: #000;
 }
 
 .button::before {

@@ -15,7 +15,7 @@ const people = [
   {
     id: 1,
     name: "C language",
-    designation: "programming languages", 
+    designation: "programming languages",
     image: Clan
   },
   {

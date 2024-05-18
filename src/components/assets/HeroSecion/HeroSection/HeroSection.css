@@ -57,20 +57,8 @@
   display: flex;
   flex-direction: row;
 }
-
-.hero-cerr {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5rem;
-  margin-top: 50px;
-  border-radius: 10px;
-}
-
-.hero-cerr2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2rem;
+.hero-certifiacte{
+  margin-top: 10rem;
 }
 
 .loader1 {

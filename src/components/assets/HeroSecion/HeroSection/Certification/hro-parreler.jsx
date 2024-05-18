@@ -27,60 +27,60 @@ export const products = [
     title: "Cursor",
     link: "https://cursor.so",
     thumbnail: SpaceCity2,
-  
+
   },
   {
     title: "Rogue",
     link: "https://userogue.com",
     thumbnail: SpaceCity3,
-  
+
   }
-   ,
+  ,
   {
     title: "Editorially",
     link: "https://editorially.org",
-  
+
     thumbnail: SpaceCity4,
-    
+
   },
   {
     title: "Editrix AI",
     link: "https://editrix.ai",
     thumbnail: SpaceCity5,
-  
+
   },
   {
     title: "Pixel Perfect",
     link: "https://app.pixelperfect.quest",
     thumbnail: SpaceCity6,
-  
-    
+
+
   },
   {
     title: "Algochurn",
     link: "https://algochurn.com",
-  
+
     thumbnail: SpaceCity7,
-    
+
   },
   {
     title: "Aceternity UI",
     link: "https://ui.aceternity.com",
-  
+
     thumbnail: SpaceCity8,
-    
+
   },
   {
     title: "Tailwind Master Kit",
     link: "https://tailwindmasterkit.com",
     thumbnail: SpaceCity9,
-  
+
   },
   {
     title: "SmartBridge",
     link: "https://smartbridgetech.com",
     thumbnail: SpaceCity7,
-  
-    
+
+
   },
 ];

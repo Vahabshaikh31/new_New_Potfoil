@@ -1,11 +1,4 @@
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .footer-content {
   display: flex;
@@ -22,7 +15,6 @@
 .footer-links a,
 .footer-social a {
   color: #fff;
-  /* Text color */
   margin-right: 20px;
   text-decoration: none;
 }
@@ -33,10 +25,6 @@
   color: aquamarine;
 }
 
-.footer-bottom {
-  margin-top: 20px;
-  text-align: center;
-}
 
 .section-waves {
   position: relative;

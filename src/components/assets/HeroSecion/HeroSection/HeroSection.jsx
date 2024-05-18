@@ -3,11 +3,8 @@ import './HeroSection.css'
 import Profile from "./Profile/Profile"
 import Footer from "./Footer/Footer"
 import { AnimatedTooltipPreview } from './Skills/NewSkills';
-
 import Intro from "./Profile/Intro"
-
 import { CardHoverEffectDemo } from "./Experrience/ExperineceNew"
-
 import Vortex from "../../../ui/vortex";
 import { HeroParallaxDemo } from './Certification/hro-parreler'
 
@@ -38,7 +35,6 @@ const HeroSEction = () => {
       </div>
 
       <div className="section-earth">
-        {/* <Earth /> */}
         <CardHoverEffectDemo />
       </div>
       <div className="hero-sec">
@@ -47,8 +43,10 @@ const HeroSEction = () => {
           <span className="span2"></span>
         </div>
       </div>
+      <div className="hero-certifiacte">
       <HeroParallaxDemo />
-      <div className="hero-section-foote">
+      </div>
+      <div className="hero-section-footer">
         <Footer />
 
       </div>
