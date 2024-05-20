@@ -18,9 +18,9 @@ const Navbar = () => {
                 <img src={logo} alt="" className='Logo' />
 
                 <div className="nav-content">
-                    <NavLink exact to="/" activeClassName="active" className='nav-fontsize links'>Home</NavLink>
-                    <NavLink to="/Projects" activeClassName="active" className='nav-fontsize links'>Projects</NavLink>
-                    <NavLink to="/Contact" activeClassName="active" className='nav-fontsize links'>Contact</NavLink>
+                    <NavLink exact  style={{ color: "white" }} to="/" activeClassName="active" className='nav-fontsize links'>Home</NavLink>
+                    <NavLink  style={{ color: "white" }} to="/Projects" activeClassName="active" className='nav-fontsize links'>Projects</NavLink>
+                    <NavLink  style={{ color: "white" }} to="/Contact" activeClassName="active" className='nav-fontsize links'>Contact</NavLink>
                 </div>
 
                 <div className="hamburger-menu" onClick={toggleNavbar}>

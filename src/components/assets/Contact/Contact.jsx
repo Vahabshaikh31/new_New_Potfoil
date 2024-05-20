@@ -1,26 +1,15 @@
 import './Contact.css'
 import Navbar from '../HeroSecion/HeroSection/Navabar/Navbar'
-import {BackgroundBeamsDemo} from './Back'
+import { BackgroundBeamsDemo } from './Back'
+import { FloatingNavDemo } from '../HeroSecion/HeroSection/Navabar/floating-nav'
 const Contact = () => {
   return (
     <div className="Contact-section">
-
       <div className="wrapper">
-        {/* <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span> */}
-  <BackgroundBeamsDemo/>
+        <BackgroundBeamsDemo />
 
-      
       </div>
-      <Navbar />
+      <FloatingNavDemo/>
       <div className="form">
         <div className="form-contact">
           Connect With Me
@@ -33,8 +22,6 @@ const Contact = () => {
           <form action="https://formspree.io/f/moqgrrbk" method="POST" >
             <div className="textInputWrapper">
               <input placeholder="svahab33@gmail.com" type="email" name="email" autoComplete="off" className="textInput" required />
-
-
               <div className="form-send-btn">
                 <button type="submit" className="form-send">
                   <svg
@@ -82,7 +69,7 @@ const Contact = () => {
                 </button>
               </div>
             </div>
-            </form>
+          </form>
         </div>
       </div>
     </div>

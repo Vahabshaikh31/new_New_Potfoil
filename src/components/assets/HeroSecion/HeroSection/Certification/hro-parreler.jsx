@@ -1,6 +1,4 @@
-import React from "react";
-import HeroParallax from "../../../../ui/hero-parallax"; // Adjust the import path based on your project structure
-
+import HeroParallax from "../../../../ui/hero-parallax";
 
 import SpaceCity4 from '../../../../../Images/Certificate/HackerRank-Sql.png';
 import SpaceCity1 from '../../../../../Images/Certificate/Code-Aplha_intern.png';

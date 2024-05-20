@@ -7,23 +7,10 @@ import React from '../../../../../Images/React.svg'
 import MongoDB from '../../../../../Images/MongoDB.svg'
 import Node from '../../../../../Images/Node.svg'
 import Express from '../../../../../Images/Express.svg'
-import Clan from '../../../../../Images/c-1.svg'
-import Cplus from '../../../../../Images/c++.svg'
 import Figma from '../../../../../Images/Figma.svg'
 
 const people = [
-  {
-    id: 1,
-    name: "C language",
-    designation: "programming languages",
-    image: Clan
-  },
-  {
-    id: 2,
-    name: "C++ language",
-    designation: "programming languages",
-    image: Cplus
-  },
+
   {
     id: 3,
     name: "Java Programming",

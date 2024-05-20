@@ -1,7 +1,8 @@
 .Contact-section {
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 .wrapper span {

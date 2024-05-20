@@ -17,6 +17,7 @@
   font-family: "Lato", sans-serif;
   font-weight: 100;
   font-style: none;
+  color: #fff;
 }
 
 
@@ -51,7 +52,7 @@ html {
 }
 
 body {
-  background:#000;
+  background: #000;
   color: #fff;
   height: 100%;
   width: 100%;
@@ -61,27 +62,33 @@ body {
 
 /* Styles for the active link */
 .active {
-  border-bottom: 1px solid #73a4d9; /* Set your desired underline color and thickness */
+  border-bottom: 1px solid #73a4d9;
+  /* Set your desired underline color and thickness */
 }
 
 /* Hide the default scrollbar */
 ::-webkit-scrollbar {
-  width: 2px; /* Set the width of the scrollbar */
+  width: 2px;
+  /* Set the width of the scrollbar */
+
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   /* background: white; Set the background color of the scrollbar track */
+
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ff0000; /* Set the background color of the scrollbar thumb */
   /* border: 1//px solid white; Set the border around the scrollbar thumb */
-  border-radius: 4px; /* Add border radius to make it rounded */
+  border-radius: 4px;
+  /* Add border radius to make it rounded */
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #0056b3; /* Change the background color of the scrollbar thumb on hover */
+  background: #0056b3;
+
+  /* Change the background color of the scrollbar thumb on hover */
 }
