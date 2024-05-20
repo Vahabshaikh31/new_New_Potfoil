@@ -16,7 +16,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'xs': '360px', // Custom screen size for xs
+        // 'xs': '360px', // Custom screen size for xs
       },
       fontSize: {
         '4xl': '2.25rem', // You can customize font sizes if needed

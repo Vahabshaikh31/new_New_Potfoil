@@ -83,32 +83,3 @@
   }
 }
 
-
-@media (width <=600px) {
-  .hero-sction-1 {
-    display: flex;
-    flex-direction: column-reverse;
-
-  }
-
-  .hero-section-intro {
-    height: 50vh;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    margin-top: 3rem;
-  }
-
-  .hero-section-profile {
-    height: 100vh;
-    width: 100%;
-  }
-
-  .hero-Back {
-    /* display: none; */
-  }
-
-  .hero-section-profile {
-    margin-top: 20rem;
-  }
-}

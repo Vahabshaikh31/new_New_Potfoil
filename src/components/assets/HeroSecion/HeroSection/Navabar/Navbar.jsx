@@ -15,7 +15,6 @@ const Navbar = () => {
 
 
             <nav className={`nav-main ${isOpen ? 'open' : ''}`}>
-                <img src={logo} alt="" className='Logo' />
 
                 <div className="nav-content">
                     <NavLink exact  style={{ color: "white" }} to="/" activeClassName="active" className='nav-fontsize links'>Home</NavLink>

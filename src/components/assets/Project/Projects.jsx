@@ -1,11 +1,13 @@
-import { FloatingNavDemo } from "../HeroSecion/HeroSection/Navabar/floating-nav";
-  
+import Navbar from "../HeroSecion/HeroSection/Navabar/Navbar"
+// import Cards from "./Cards"
+
 import { ThreeDCardDemo } from "./Card-3d";
 import './Projects.css'
 const Projects = () => {
   return (
     <>
-      <FloatingNavDemo/>
+      <Navbar />
+
 
       <ThreeDCardDemo />
 

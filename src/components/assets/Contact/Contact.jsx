@@ -6,10 +6,12 @@ const Contact = () => {
   return (
     <div className="Contact-section">
       <div className="wrapper">
+
         <BackgroundBeamsDemo />
 
+
       </div>
-      <FloatingNavDemo/>
+      <Navbar />
       <div className="form">
         <div className="form-contact">
           Connect With Me
@@ -22,6 +24,8 @@ const Contact = () => {
           <form action="https://formspree.io/f/moqgrrbk" method="POST" >
             <div className="textInputWrapper">
               <input placeholder="svahab33@gmail.com" type="email" name="email" autoComplete="off" className="textInput" required />
+
+
               <div className="form-send-btn">
                 <button type="submit" className="form-send">
                   <svg

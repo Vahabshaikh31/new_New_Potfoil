@@ -1,19 +1,20 @@
+import Navbar from "./Navabar/Navbar"
 import './HeroSection.css'
+import Profile from "./Profile/Profile"
 import Footer from "./Footer/Footer"
 import { AnimatedTooltipPreview } from './Skills/NewSkills';
 import { CardHoverEffectDemo } from "./Experrience/ExperineceNew"
 import Vortex from "../../../ui/vortex";
 import { HeroParallaxDemo } from './Certification/hro-parreler'
 import SparklesPreview from './Profile/SparklesPreview'
-import { FloatingNavDemo } from "./Navabar/floating-nav"; 
 const HeroSEction = () => {
   return (
     <>
 
       <div className="Hero">
-      
-          <FloatingNavDemo/>
-        
+        <div className="nav">
+          <Navbar />
+        </div>
         <div className='hero-sction-1'>
           <div className="hero-Back">
             <Vortex />

@@ -1,8 +1,8 @@
-// import React from "react";
+import React from "react";
 import { FloatingNav } from "../../../../ui/floating-navbar";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 
-export function FloatingNavDemo() { 
+export function FloatingNavDemo() {
   const navItems = [
     {
       name: "Home",
@@ -31,6 +31,4 @@ export function FloatingNavDemo() {
   );
 }
 
-const DummyContent = () => {
-
-};
+const DummyContent = () => {};
