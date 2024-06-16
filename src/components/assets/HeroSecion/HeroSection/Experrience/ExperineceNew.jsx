@@ -1,4 +1,3 @@
-import React from "react";
 import { HoverEffect } from "../../../../ui/Experience"; // Ensure this path is correct
 
 export function CardHoverEffectDemo() {
@@ -31,17 +30,9 @@ export function CardHoverEffectDemo() {
   ];
 
   return (
-    <div className="max-w-8xl mx-auto px-14 ">
-      <h1 style={{fontSize:"3rem",fontWeight:"800"} }>Expreience</h1>
+    <div className="max-w-8xl  text-3xl z-0 mt-10 mx-auto px-14 ">
+      <h1 style={{fontSize:"3rem",fontWeight:"800"} }>Work Experience</h1>
       <HoverEffect items={projects} />
     </div>
   );
 }
-
-
-/**
-          <Experi Title=" , CODE ALPHA" Time="10th May 2024
-10th August 2024 " Descr="" />
-         
-<Experi Title="Work On Project" Descr="Working as a MERN stack developer at Gymzy Projects alongside seasoned professionals has been an enriching experience filled with growth and challenges. Recently, while tasked with integrating a new feature into our web application, I encountered unexpected hurdles in configuring the backend API to communicate seamlessly with the frontend components. Despite thorough collaboration with my senior colleagues and extensive troubleshooting, resolving the issue proved to be more intricate than initially anticipated. " />  
- * ? */

@@ -1,13 +1,11 @@
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../../ui/Card-3d";
-import { useNavigate } from "react-router-dom"; // Assuming you are using react-router for navigation
 import { ProjectData } from './Data';
 
 export function ThreeDCardDemo() {
-    const navigate = useNavigate();
 
     return (
-        <div className="flex mt-40 flex-wrap justify-center gap-24">
+        <div className="flex m-48 flex-wrap justify-center gap-24">
             {ProjectData.map((item, index) => (
                 <CardContainer key={index} className="inter-var flex flex-col items-center">
                     <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border flex flex-col items-center">
@@ -30,7 +28,7 @@ export function ThreeDCardDemo() {
                                 src={item.IMG}
                                 height="1000"
                                 width="1000"
-                                className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                                className="h-60 w-100 object-cover rounded-xl group-hover/card:shadow-xl"
                                 alt={item.title}
                             />
                         </CardItem>

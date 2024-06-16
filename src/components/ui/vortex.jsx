@@ -1,8 +1,7 @@
-import  { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { createNoise3D } from "simplex-noise";
 import { motion } from "framer-motion";
 import { cn } from "../../utils/cn"; // Adjust the path according to your project structure
-// import "./vortex-styles.css"; 
 
 const Vortex = ({
   children,
@@ -15,7 +14,7 @@ const Vortex = ({
   rangeSpeed = 1.5,
   baseRadius = 1,
   rangeRadius = 2,
-  backgroundColor = "#000000",
+  backgroundColor = "#000",
 }) => {
   const canvasRef = useRef(null);
   const containerRef = useRef(null);

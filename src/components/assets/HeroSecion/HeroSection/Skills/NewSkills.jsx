@@ -66,7 +66,10 @@ const people = [
 
 export function AnimatedTooltipPreview() {
   return (
-    <div className="flex flex-row flex-wrap items-center justify-center mb-40 w-full">
+    <div
+      id="pageonescroll"
+      className="flex flex-row flex-wrap items-center justify-center mb-40   w-full"
+    >
       <AnimatedTooltip items={people} />
     </div>
   );

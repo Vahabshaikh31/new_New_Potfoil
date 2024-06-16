@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { cn } from "../../utils/cn"; // Ensure this path is correct
 import { motion, AnimatePresence } from "framer-motion"; // Import both motion and AnimatePresence
 
-// HoverEffect component
 export const HoverEffect = ({ items, className }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
@@ -19,7 +18,7 @@ export const HoverEffect = ({ items, className }) => {
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block rounded-3xl"
+                className="absolute inset-0 h-full w-full bg-neutral-200 bg-blue-400 block rounded-3xl"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1, transition: { duration: 0.15 } }}
@@ -53,14 +52,14 @@ export const Card = ({ className, children }) => {
 // CardTitle component
 export const CardTitle = ({ className, children }) => {
   return (
-    <h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4", className)}>
+    <h4 className={cn("font-bold tracking-wide mt-4", className)}>
       {children}
     </h4>
   );
 };
 export const CardRole = ({ className, children }) => {
   return (
-    <h4 className={cn("text-zinc-100  tracking-wide mt-2", className)}>
+    <h4 className={cn(" font-normal  tracking-wide mt-2", className)}>
       {children}
     </h4>
   );
@@ -68,7 +67,7 @@ export const CardRole = ({ className, children }) => {
 // CardDescription component
 export const CardDescription = ({ className, children }) => {
   return (
-    <p className={cn("mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm", className)}>
+    <p className={cn("mt-8 font-light tracking-wide leading-relaxed text-xl", className)}>
       {children}
     </p>
   );
