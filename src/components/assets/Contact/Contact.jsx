@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Contact.css"; // Assuming you will use an external CSS file for styles
+import "./Contact.css"; 
 
 const Contact = () => {
   const [showAlert, setShowAlert] = useState(false);
