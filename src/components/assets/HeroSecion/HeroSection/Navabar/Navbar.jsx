@@ -59,9 +59,9 @@ const Navbar = () => {
                 >
                   PROJECTS
                 </LinkScroll>
-            
-                <div className=" h-20" >
-                  <Contact/>
+
+                <div className=" h-20">
+                  <Contact />
                 </div>
               </div>
             </div>
@@ -72,7 +72,7 @@ const Navbar = () => {
               className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-gray-400 hover:bg-gray-700 outline-none bg-gray-700"
             >
               <svg
-                className="h-6 w-6"
+                className="h-12 w-12"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -98,33 +98,52 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`${isOpen ? "block" : "hidden"} md:hidden flex justify-end`}
+        className={`${isOpen ? "block" : "hidden"} bg-black md:hidden flex justify-end`}
       >
-        <div className="px-2 pt-2 pb-3 flex flex-col w-fit justify-center items-center space-y-1 sm:px-3">
-          <NavLink
-            to="/"
-            className="nav-link text-white font-bold"
-            activeClassName="active-link"
-            onClick={toggleNavbar}
+        <div className="px-2 pt-2 pb-3  flex flex-col w-fit justify-center items-center space-y-1 sm:px-3">
+          <LinkScroll
+            className="nav-link text-white font-bold cursor-pointer"
+            to="AboutPage"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1}
           >
-            HOME
-          </NavLink>
-          <NavLink
-            to="/projects"
-            className="nav-link text-white font-bold"
-            activeClassName="active-link"
-            onClick={toggleNavbar}
+            ABOUT
+          </LinkScroll>
+          <LinkScroll
+            className="nav-link text-white font-bold cursor-pointer"
+            to="SkillPage"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1}
+          >
+            SKILLS
+          </LinkScroll>
+          <LinkScroll
+            className="nav-link text-white font-bold cursor-pointer"
+            to="Experiencepage"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1}
+          >
+            EXPERIENCE
+          </LinkScroll>
+          <LinkScroll
+            to="ProjectPAge"
+            className="nav-link text-white font-bold cursor-pointer"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1}
           >
             PROJECTS
-          </NavLink>
-          <NavLink
-            to="/contact"
-            className="nav-link text-white font-bold"
-            activeClassName="active-link"
-            onClick={toggleNavbar}
-          >
-            CONTACT
-          </NavLink>
+          </LinkScroll>
+          <div className=" h-20">
+            <Contact />
+          </div>
         </div>
       </div>
     </nav>
